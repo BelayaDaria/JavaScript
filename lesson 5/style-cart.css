@@ -1,0 +1,50 @@
+/* стили для корзины:    */
+
+.product_list {
+  list-style: none;
+        justify-content: space-between;
+    text-transform: uppercase;
+}
+
+#cart {
+  width: 1140px;
+  margin: 0 auto;
+   display: flex;
+ }
+
+.cart_sum {
+    border: 3px solid green;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    background-color: cornsilk;
+         }
+.quantitySum_sum {
+    border: 3px solid green;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    background-color: cornsilk;
+    
+}
+.cart_count {
+     width: 1140px;
+  margin: 0 auto;
+    display: flex;
+}
+
+/* стили для каталога:    */
+
+#catalog {
+    width: 1140px;
+  margin: 0 auto;
+    display: flex;
+        margin-bottom: 50px;
+    
+}
+.catalog_ul {
+      list-style: none;
+}
+.catalog_li {
+    text-align: center;
+}
